@@ -18,10 +18,10 @@ package dax
 import (
 	"io"
 
-	"github.com/aws/aws-dax-go/dax/internal/client"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/request"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
+	"github.com/basset-la/aws-dax-go/dax/internal/client"
 )
 
 func (d *Dax) PutItem(input *dynamodb.PutItemInput) (*dynamodb.PutItemOutput, error) {

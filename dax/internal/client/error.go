@@ -19,10 +19,10 @@ import (
 	"bufio"
 	"bytes"
 	"fmt"
-	"github.com/aws/aws-dax-go/dax/internal/cbor"
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/aws/request"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
+	"github.com/basset-la/aws-dax-go/dax/internal/cbor"
 	"net"
 )
 

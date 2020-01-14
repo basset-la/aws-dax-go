@@ -21,7 +21,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/aws/aws-dax-go/dax/internal/cbor"
+	"github.com/basset-la/aws-dax-go/dax/internal/cbor"
 )
 
 const magic = "J7yne5G"

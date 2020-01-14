@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-dax-go/dax/internal/cbor"
+	"github.com/basset-la/aws-dax-go/dax/internal/cbor"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aws/aws-dax-go/dax/internal/cbor"
-	"github.com/aws/aws-dax-go/dax/internal/lru"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/aws/client/metadata"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/request"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
+	"github.com/basset-la/aws-dax-go/dax/internal/cbor"
+	"github.com/basset-la/aws-dax-go/dax/internal/lru"
 )
 
 const (
